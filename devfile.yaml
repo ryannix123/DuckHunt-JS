@@ -38,11 +38,6 @@ components:
     - -f
     - /dev/null
     endpoints:
-    - name: http-node
-      targetPort: 3000
-    - exposure: none
-      name: debug
-      targetPort: 5858
     - name: port-8080-tcp
       protocol: tcp
       targetPort: 8080
